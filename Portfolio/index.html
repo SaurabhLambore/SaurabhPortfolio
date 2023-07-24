@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="img/css/portfolio.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sarry's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="" onclick="myFunction()">Home</li>
+                <li><a href="" onclick="myFunction()">About</a></li>
+                <li><a href="" onclick="myFunction()">Service</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Saurabh</span>.
+                <div> I'm Developer. & also....</div>
+                <span id="element"></span> <!---for the special effect using JS-->
+            </div>
+            <div class="rightSection">
+                <img src="img/pngwing.com.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="secondSection">
+          <div class="text-gray">What I have done previous</div>
+          <h1>Work Experiance</h1>
+          <div class="box">
+            <div class="vertical">
+              <img class="image-top" src="img/html_logo.png" alt="">
+              <div class="vertical-title">
+                HTML Develper 2010-2012
+              </div>
+              <div class="vertical-desc">
+                <!---It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.--->
+                <span id="element01"></span>
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="img/javascript.png" alt="">
+              <div class="vertical-title">
+                Javascript ES6 2012-2014
+              </div>
+              <div class="vertical-desc">
+                <!---It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.--->
+                <span id="element02"></span>
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="img/nodejs.png" alt="">
+              <div class="vertical-title">
+                Node js Develper 2014-2016
+              </div>
+              <div class="vertical-desc">
+                <!---It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.--->
+                <span id="element03"></span>
+              </div>
+            </div>
+            <div class="vertical">
+              <img class="image-top" src="img/react.png" alt="">
+              <div class="vertical-title">
+                React Develper 2016-2018
+              </div>
+              <div class="vertical-desc">
+              <span id="element04"></span>
+              <!---It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.--->
+              
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <div class="footer1">
+        <div class="footer-first">
+          <img src="img/robo.png"><h3>Sarry's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <a href="" onclick="myFunction()"><li>Home</li></a>
+            <a href="" onclick="myFunction()"><li>About</li></a>
+            <a href="" onclick="myFunction()"><li>Service</li></a>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <img src="img/facebook (2).png"><li>facebook</li>
+            <img src="img/insta.png"><li>Instagram</li>
+            <img src="img/linkedin.png"><li>LinkedIn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="last">
+        <p class="cp-text">
+          © Copyright 2015 Company Name. All rights reserved.
+      </p>
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Mechanical Engineer.', 'Web Developer. ','Quality assurance (QA).','Cyber Security.'],
+          typeSpeed: 90,
+        });
+
+        var typed = new Typed('#element01',{
+          strings: ['It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'],
+          typeSpeed: 10,
+        });
+        var typed = new Typed('#element02',{
+          strings: ['It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'],
+          typeSpeed: 20,
+        });
+        var typed = new Typed('#element03',{
+          strings: ['It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'],
+          typeSpeed: 30,
+        });
+        var typed = new Typed('#element04',{
+          strings: ['It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'],
+          typeSpeed: 35,
+        });
+
+
+
+
+
+      </script>
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
-Description
+Description-
 This README document provides an overview of the "Portfolio" website project. The HTML code provided represents a simple portfolio website that showcases the work experience and skills of a developer named Saurabh. The website includes a navigation bar, sections for introduction and work experience, and a footer with social media links.
 
-Project Structure
+Project Structure-
 The project consists of a single HTML file (index.html) that contains the entire code for the website. The website is designed using HTML, CSS, and JavaScript. The index.html file includes the following main sections:
 
 Header: Contains the website's navigation bar.
